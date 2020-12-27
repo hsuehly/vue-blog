@@ -70,7 +70,7 @@ export default {
   position: absolute;
   display: block;
   bottom: -5 rem;
-  left: calc(50% - 1.45rem);
+  left: calc(50% - 1.5rem);
   width: 1.5rem;
   height: 1.5rem;
   border: 0.25rem solid #fff;

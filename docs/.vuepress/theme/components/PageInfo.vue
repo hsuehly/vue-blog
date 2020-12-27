@@ -95,6 +95,13 @@ export default {
   }
 }
 </script>
+<style lang="stylus" scoped>
+@media screen and (max-device-width:419px){
+   .fullPic .iconfont {
+  font-size: 13px;
+ }
+}
+</style>
 
 <style lang="stylus" scoped>
 .iconfont

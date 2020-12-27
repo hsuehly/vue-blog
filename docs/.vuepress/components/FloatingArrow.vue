@@ -50,7 +50,7 @@ export default {
   font-family: ptsans-regular;
   text-transform: uppercase;
   bottom: 8rem;
-  left: calc(50% - 15rem);
+  left: calc(50% - 14.5rem);
   color: #fff;
   width: 30rem;
   text-align: center;
@@ -70,7 +70,7 @@ export default {
   position: absolute;
   display: block;
   bottom: -5 rem;
-  left: calc(50% - 1.5rem);
+  left: calc(50% - 1.45rem);
   width: 1.5rem;
   height: 1.5rem;
   border: 0.25rem solid #fff;

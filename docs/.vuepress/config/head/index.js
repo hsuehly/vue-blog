@@ -14,7 +14,7 @@ module.exports = [
          content: "width=device-width,initial-scale=1,user-scalable=no"
       }
     ],
-    ['meta', { name: 'keywords', content: 'Hsueh,blog,博客,薛留阳的博客,薛留阳,vuepress,前端博客,学习前端' }],
+    ['meta', { name: 'keywords', content: 'Hsueh,blog,博客,vuepress,前端博客,学习前端' }],
     ["script", {"language": "javascript","type": "text/javascript","src": "/js/bg.js"}],
 
 

@@ -4,7 +4,7 @@ const sidebar = require("./config/sidebar");
 const plugins = require("./config/plugins");
 module.exports = {
    title: "Hsueh",
-   description: "薛留阳记录学习的个人博客",
+   description: "记录学习的个人博客",
    dest: "public",
    locales: {
     '/': {
@@ -44,12 +44,6 @@ module.exports = {
          email: "207195095@qq.com",
          link: "http://fl.testw.top"
       },
-     /* {
-         title: "vuepress-theme-reco",
-         desc: "A simple and beautiful vuepress Blog & Doc theme.",
-         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-         link: "https://vuepress-theme-reco.recoluan.com"
-      }*/
     ],
     //    // 
     displayAllHeaders: false,
@@ -57,25 +51,25 @@ module.exports = {
      lastUpdated: true,
      lastUpdated: '上次更新', // string | boolean
      valineConfig: {
-      appId: 'Ky8Em5FsYCrnwNJzVmfVnEEH-gzGzoHsz',
-      appKey: 'LseTwwEsGqMOyyui7aOAdfcW',
+      appId: '',   //  在https://www.leancloud.cn/ 注册 获取id key 填入
+      appKey: '',
       placeholder: '填写邮箱可以收到回复哦!',
       notify: true, // 邮件提醒
       verify: true, // 验证码
       recordIP: true,
     },
      subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏
-     mode: 'dark',
+     mode: 'dark',// 主题选择 dark light
      modePicker: true,
-     logo: "https://cdn.jsdelivr.net/gh/hsuehly/blogimg/logo/bs.png",
+     logo: "",// logo
      search: true,
-     searchMaxSuggestions: 10,
-     lastUpdated: "Last Updated",
-     author: "Hsueh",
-     authorAvatar: "http://img.testw.top/logo/avatar.gif",
-     record: "豫ICP备2020026772号",
-     recordLink: 'https://beian.miit.gov.cn/',
-     startYear: "2020",
+     searchMaxSuggestions: 10,//最大搜索数
+     lastUpdated: "Last Updated",//最后上传时间
+     author: "Hsueh",// 作者名字
+     authorAvatar: "",//作者头像
+     record: "", //备案号
+     recordLink: '',//备案网站
+     startYear: "",//博客创建时间
 
   },
   
